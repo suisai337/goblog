@@ -38,16 +38,16 @@ $ go run main.go
  - using env:	export GIN_MODE=release  
  - using code:	gin.SetMode(gin.ReleaseMode)  
 
-[GIN-debug] GET&emsp;&emsp;/auth&emsp;&emsp;&emsp;&emsp;--> github.com/suisai337/goblog/routers/api.GetAuth (3 handlers)  
-[GIN-debug] GET&emsp;&emsp;/api/v1/tags&emsp;&emsp;&emsp;--> github.com/suisai337/goblog/routers/api/v1.GetTags (4 handlers) 
-[GIN-debug] POST&emsp;&emsp;/api/v1/tags &emsp;&emsp;&emsp;--> github.com/suisai337/goblog/routers/api/v1.AddTag (4 handlers) 
-[GIN-debug] PUT&emsp;&emsp;/api/v1/tags/:id &emsp;&emsp;&emsp;--> github.com/suisai337/goblog/routers/api/v1.EditTag (4 handlers)  
-[GIN-debug] DELETE&emsp;&emsp;/api/v1/tags/:id&emsp;&emsp;&emsp;--> github.com/suisai337/goblog/routers/api/v1.DeleteTag (4 handlers)  
-[GIN-debug] GET&emsp;&emsp;/api/v1/articles&emsp;&emsp;&emsp;--> github.com/suisai337/goblog/routers/api/v1.GetArticles (4 handlers)  
-[GIN-debug] GET&emsp;&emsp;/api/v1/articles/:id&emsp;&emsp;&emsp;--> github.com/suisai337/goblog/routers/api/v1.GetArticle (4 handlers)  
-[GIN-debug] POST&emsp;&emsp;/api/v1/articles&emsp;&emsp;&emsp;--> github.com/suisai337/goblog/routers/api/v1.AddArticle (4 handlers)  
-[GIN-debug] PUT&emsp;&emsp;/api/v1/articles/:id&emsp;&emsp;&emsp;--> github.com/suisai337/goblog/routers/api/v1.EditArticle (4 handlers)  
-[GIN-debug] DELETE&emsp;&emsp;/api/v1/articles/:id&emsp;&emsp;&emsp;--> github.com/suisai337/goblog/routers/api/v1.DeleteArticle (4 handlers)  
+[GIN-debug]GET&emsp;&emsp;/auth&emsp;&emsp;&emsp;&emsp;--> github.com/suisai337/goblog/routers/api.GetAuth  
+[GIN-debug]GET&emsp;&emsp;/api/v1/tags&emsp;&emsp;&emsp;--> github.com/suisai337/goblog/routers/api/v1.GetTags  
+[GIN-debug]POST&emsp;&emsp;/api/v1/tags &emsp;&emsp;&emsp;--> github.com/suisai337/goblog/routers/api/v1.AddTag  
+[GIN-debug]PUT&emsp;&emsp;/api/v1/tags/:id &emsp;&emsp;&emsp;--> github.com/suisai337/goblog/routers/api/v1.EditTag  
+[GIN-debug]DELETE&emsp;&emsp;/api/v1/tags/:id&emsp;&emsp;&emsp;--> github.com/suisai337/goblog/routers/api/v1.DeleteTag  
+[GIN-debug]GET&emsp;&emsp;/api/v1/articles&emsp;&emsp;&emsp;--> github.com/suisai337/goblog/routers/api/v1.GetArticles  
+[GIN-debug]GET&emsp;&emsp;/api/v1/articles/:id&emsp;&emsp;&emsp;--> github.com/suisai337/goblog/routers/api/v1.GetArticle    
+[GIN-debug]POST&emsp;&emsp;/api/v1/articles&emsp;&emsp;&emsp;--> github.com/suisai337/goblog/routers/api/v1.AddArticle  
+[GIN-debug]PUT&emsp;&emsp;/api/v1/articles/:id&emsp;&emsp;&emsp;--> github.com/suisai337/goblog/routers/api/v1.EditArticle    
+[GIN-debug]DELETE&emsp;&emsp;/api/v1/articles/:id&emsp;&emsp;&emsp;--> github.com/suisai337/goblog/routers/api/v1.DeleteArticle  
 
 Listening port is 8000  
 
