@@ -12,7 +12,7 @@ Go Gin Blog 同时引用beego种的gorm 验证规则等
 ### 配置：
 你应该修改 conf/app.ini 配置文件
 
-[database]  
+`[database]  
 Type = mysql  
 User = root  
 Password = rootroot  
@@ -26,7 +26,7 @@ Password =
 MaxIdle = 30  
 MaxActive = 30  
 IdleTimeout = 200  
-...  
+...  `
 
 ## 运行：
 ` $ cd $GOPATH/src/gobolg `
