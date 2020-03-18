@@ -1,7 +1,7 @@
 # goblog
 Go Gin Blog 同时引用beego种的gorm 验证规则等
 
-##安装
+<h2>安装</h2>
 $ go get github.com/suisai337/goblog
 
 ##运行条件
