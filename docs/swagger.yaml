@@ -1,0 +1,98 @@
+info:
+  contact: {}
+  license: {}
+paths:
+  /api/v1/tags:
+    get:
+      parameters:
+      - description: 标签名称
+        in: query
+        name: name
+        type: string
+      - description: 标签状态
+        in: query
+        name: state
+        type: integer
+      - description: 标签创建人
+        in: query
+        name: created_by
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: '{"code":200,"data":{},"msg":"ok"}'
+          schema:
+            type: string
+      summary: 获取文章标签列表
+    post:
+      parameters:
+      - description: 标签名称
+        in: query
+        name: name
+        required: true
+        type: string
+      - description: 标签状态
+        in: query
+        name: state
+        required: true
+        type: integer
+      - description: 标签创建人
+        in: query
+        name: created_by
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: '{"code":200,"data":{},"msg":"ok"}'
+          schema:
+            type: string
+      summary: 新增文章标签
+  /api/v1/tags/{id}:
+    delete:
+      parameters:
+      - description: 标签id
+        in: path
+        name: id
+        required: true
+        type: integer
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: '{"code":200,"data":{},"msg":"ok"}'
+          schema:
+            type: string
+      summary: 删除文章标签
+    put:
+      parameters:
+      - description: 标签id
+        in: path
+        name: id
+        required: true
+        type: integer
+      - description: 标签名称
+        in: query
+        name: name
+        required: true
+        type: string
+      - description: 标签状态
+        in: query
+        name: state
+        type: integer
+      - description: 修改人
+        in: query
+        name: modified_by
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: '{"code":200,"data":{},"msg":"ok"}'
+          schema:
+            type: string
+      summary: 修改文章标签
+swagger: "2.0"

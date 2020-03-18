@@ -1,0 +1,5 @@
+[INFO][auth.go:42]2020/03/06 16:11:22 [Username.Required. Can not be empty]
+[INFO][auth.go:42]2020/03/06 16:11:22 [Password.Required. Can not be empty]
+[INFO][auth.go:42]2020/03/06 16:11:32 [Username.Required. Can not be empty]
+[INFO][auth.go:42]2020/03/06 16:11:32 [Password.Required. Can not be empty]
+[INFO][auth.go:42]2020/03/06 16:12:02 [Username.Required. Can not be empty]
