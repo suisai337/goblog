@@ -12,9 +12,10 @@ Go Gin Blog 同时引用beego种的gorm 验证规则等
 ### 配置：
 你应该修改 conf/app.ini 配置文件
 
-`[database]
-Type = mysql
-User = root
+[database]|
+--|
+Type = mysql|
+User = root|
 Password = rootroot
 Host = 127.0.0.1:3306
 Name = blog
