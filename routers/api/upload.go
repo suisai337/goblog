@@ -1,9 +1,9 @@
 package api
 
 import (
-	"github.com/EDDYCJY/go-gin-example/pkg/e"
-	"github.com/EDDYCJY/go-gin-example/pkg/logging"
-	"github.com/EDDYCJY/go-gin-example/pkg/upload"
+	"github.com/suisai337/goblog/pkg/e"
+	"github.com/suisai337/goblog/pkg/logging"
+	"github.com/suisai337/goblog/pkg/upload"
 	"github.com/gin-gonic/gin"
 	"net/http"
 )

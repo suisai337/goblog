@@ -2,10 +2,10 @@ package upload
 
 import (
 	"fmt"
-	"github.com/EDDYCJY/go-gin-example/pkg/file"
-	"github.com/EDDYCJY/go-gin-example/pkg/logging"
-	"github.com/EDDYCJY/go-gin-example/pkg/setting"
-	"github.com/EDDYCJY/go-gin-example/pkg/util"
+	"github.com/suisai337/goblog/pkg/file"
+	"github.com/suisai337/goblog/pkg/logging"
+	"github.com/suisai337/goblog/pkg/setting"
+	"github.com/suisai337/goblog/pkg/util"
 	"log"
 	"mime/multipart"
 	"os"

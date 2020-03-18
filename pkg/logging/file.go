@@ -2,8 +2,8 @@ package logging
 
 import (
 	"fmt"
-	"github.com/EDDYCJY/go-gin-example/pkg/file"
-	"github.com/EDDYCJY/go-gin-example/pkg/setting"
+	"github.com/suisai337/goblog/pkg/file"
+	"github.com/suisai337/goblog/pkg/setting"
 	"os"
 	"time"
 )

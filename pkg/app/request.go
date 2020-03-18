@@ -1,7 +1,7 @@
 package app
 
 import (
-	"github.com/EDDYCJY/go-gin-example/pkg/logging"
+	"github.com/suisai337/goblog/pkg/logging"
 	"github.com/astaxie/beego/validation"
 )
 

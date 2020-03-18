@@ -1,4 +1,4 @@
-module github.com/EDDYCJY/go-gin-example
+module github.com/suisai337/goblog
 
 go 1.14
 
@@ -34,22 +34,22 @@ require (
 )
 
 replace (
-	github.com/EDDYCJY/go-gin-example/conf => /User/yanfan/go-application/go-gin-example/pkg/conf
-	github.com/EDDYCJY/go-gin-example/docs => /User/yanfan/go-application/go-gin-example/pkg/docs
-	github.com/EDDYCJY/go-gin-example/middleware => /User/yanfan/go-application/go-gin-example/middleware
-	github.com/EDDYCJY/go-gin-example/middleware/jwt => /User/yanfan/go-application/go-gin-example/middleware/jwt
-	github.com/EDDYCJY/go-gin-example/models => /User/yanfan/go-application/go-gin-example/models
-	github.com/EDDYCJY/go-gin-example/pkg/app => /User/yanfan/go-application/go-gin-example/pkg/app
-	github.com/EDDYCJY/go-gin-example/pkg/e => /User/yanfan/go-application/go-gin-example/pkg/e
-	github.com/EDDYCJY/go-gin-example/pkg/file => /User/yanfan/go-application/go-gin-example/pkg/file
-	github.com/EDDYCJY/go-gin-example/pkg/gredis => /User/yanfan/go-application/go-gin-example/pkg/gredis
-	github.com/EDDYCJY/go-gin-example/pkg/logging => /User/yanfan/go-application/go-gin-example/pkg/logging
-	github.com/EDDYCJY/go-gin-example/pkg/setting => /User/yanfan/go-application/go-gin-example/pkg/setting
-	github.com/EDDYCJY/go-gin-example/pkg/upload => /User/yanfan/go-application/go-gin-example/pkg/upload
-	github.com/EDDYCJY/go-gin-example/pkg/util => /User/yanfan/go-application/go-gin-example/pkg/util
-	github.com/EDDYCJY/go-gin-example/routers => /User/yanfan/go-application/go-gin-example/routers
-	github.com/EDDYCJY/go-gin-example/routers/api => /User/yanfan/go-application/go-gin-example/routers/api
-	github.com/EDDYCJY/go-gin-example/service => /User/yanfan/go-application/go-gin-example/service
-	github.com/EDDYCJY/go-gin-example/service/article_service => /User/yanfan/go-application/go-gin-example/service/article_service
-	github.com/EDDYCJY/go-gin-example/service/cache_service => /User/yanfan/go-application/go-gin-example/service/cache_service
+	github.com/suisai337/goblog/conf => /User/yanfan/go-application/go-gin-example/pkg/conf
+	github.com/suisai337/goblog/docs => /User/yanfan/go-application/go-gin-example/pkg/docs
+	github.com/suisai337/goblog/middleware => /User/yanfan/go-application/go-gin-example/middleware
+	github.com/suisai337/goblog/middleware/jwt => /User/yanfan/go-application/go-gin-example/middleware/jwt
+	github.com/suisai337/goblog/models => /User/yanfan/go-application/go-gin-example/models
+	github.com/suisai337/goblog/pkg/app => /User/yanfan/go-application/go-gin-example/pkg/app
+	github.com/suisai337/goblog/pkg/e => /User/yanfan/go-application/go-gin-example/pkg/e
+	github.com/suisai337/goblog/pkg/file => /User/yanfan/go-application/go-gin-example/pkg/file
+	github.com/suisai337/goblog/pkg/gredis => /User/yanfan/go-application/go-gin-example/pkg/gredis
+	github.com/suisai337/goblog/pkg/logging => /User/yanfan/go-application/go-gin-example/pkg/logging
+	github.com/suisai337/goblog/pkg/setting => /User/yanfan/go-application/go-gin-example/pkg/setting
+	github.com/suisai337/goblog/pkg/upload => /User/yanfan/go-application/go-gin-example/pkg/upload
+	github.com/suisai337/goblog/pkg/util => /User/yanfan/go-application/go-gin-example/pkg/util
+	github.com/suisai337/goblog/routers => /User/yanfan/go-application/go-gin-example/routers
+	github.com/suisai337/goblog/routers/api => /User/yanfan/go-application/go-gin-example/routers/api
+	github.com/suisai337/goblog/service => /User/yanfan/go-application/go-gin-example/service
+	github.com/suisai337/goblog/service/article_service => /User/yanfan/go-application/go-gin-example/service/article_service
+	github.com/suisai337/goblog/service/cache_service => /User/yanfan/go-application/go-gin-example/service/cache_service
 )

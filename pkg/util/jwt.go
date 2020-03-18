@@ -5,7 +5,7 @@ import (
 
 	jwt "github.com/dgrijalva/jwt-go"
 
-	"github.com/EDDYCJY/go-gin-example/pkg/setting"
+	"github.com/suisai337/goblog/pkg/setting"
 )
 
 var jwtSecret = []byte(setting.AppSetting.JwtSecret)
@@ -18,7 +18,7 @@ type Claims struct {
 
 func GenerateToken(username, password string) (string, error) {
 	nowTime := time.Now()
-	expireTime := nowTime.Add(3 * time.Hour)
+	expireTime := nowTime.Add(720 * time.Hour)
 
 	claims := Claims{
 		username,

@@ -1,7 +1,7 @@
 package main
 
 //import (
-//	"github.com/EDDYCJY/go-gin-example/models"
+//	"github.com/suisai337/goblog/models"
 //	"github.com/robfig/cron"
 //	"log"
 //	"time"

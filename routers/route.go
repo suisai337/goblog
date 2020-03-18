@@ -1,12 +1,12 @@
 package routers
 
 import (
-	_ "github.com/EDDYCJY/go-gin-example/docs"
-	"github.com/EDDYCJY/go-gin-example/middleware/jwt"
-	"github.com/EDDYCJY/go-gin-example/pkg/setting"
-	"github.com/EDDYCJY/go-gin-example/pkg/upload"
-	"github.com/EDDYCJY/go-gin-example/routers/api"
-	v1 "github.com/EDDYCJY/go-gin-example/routers/api/v1"
+	_ "github.com/suisai337/goblog/docs"
+	"github.com/suisai337/goblog/middleware/jwt"
+	"github.com/suisai337/goblog/pkg/setting"
+	"github.com/suisai337/goblog/pkg/upload"
+	"github.com/suisai337/goblog/routers/api"
+	v1 "github.com/suisai337/goblog/routers/api/v1"
 	"github.com/gin-gonic/gin"
 	ginSwagger "github.com/swaggo/gin-swagger"
 	"github.com/swaggo/gin-swagger/swaggerFiles"

@@ -1,7 +1,7 @@
 package cache_service
 
 import (
-	"github.com/EDDYCJY/go-gin-example/pkg/e"
+	"github.com/suisai337/goblog/pkg/e"
 	"strconv"
 	"strings"
 )
