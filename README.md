@@ -38,7 +38,7 @@ $ go run main.go
  - using env:	export GIN_MODE=release  
  - using code:	gin.SetMode(gin.ReleaseMode)  
 
-[GIN-debug] GET /auth                     --> github.com/suisai337/goblog/routers/api.GetAuth (3 handlers)  
+[GIN-debug] GET    /auth                     --> github.com/suisai337/goblog/routers/api.GetAuth (3 handlers)  
 [GIN-debug] GET    /swagger/*any             --> github.com/suisai337/goblog/vendor/github.com/swaggo/gin-swagger.WrapHandler.func1 (3 handlers)  
 [GIN-debug] GET    /api/v1/tags              --> github.com/suisai337/goblog/routers/api/v1.GetTags (4 handlers)  
 [GIN-debug] POST   /api/v1/tags              --> github.com/suisai337/goblog/routers/api/v1.AddTag (4 handlers)  
