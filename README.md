@@ -2,10 +2,10 @@
 Go Gin Blog 同时引用beego种的gorm 验证规则等
 
 <h2>安装</h2>
-$ go get github.com/suisai337/goblog
+`$ go get github.com/suisai337/goblog`
 
-##运行条件
-必须：
+<h2>运行条件</h2>
+<h3>必须</h3>：
 mysql
 redis
 
