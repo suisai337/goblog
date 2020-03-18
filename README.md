@@ -12,8 +12,7 @@ Go Gin Blog 同时引用beego种的gorm 验证规则等
 ### 配置：
 你应该修改 conf/app.ini 配置文件
 
-`
-[database]
+`[database]
 Type = mysql
 User = root
 Password = rootroot
@@ -27,8 +26,7 @@ Password =
 MaxIdle = 30
 MaxActive = 30
 IdleTimeout = 200
-...
-`
+...`
 
 ## 运行：
 ` $ cd $GOPATH/src/gobolg `
@@ -36,8 +34,7 @@ IdleTimeout = 200
 $ go run main.go 
 项目的运行信息和已存在的 API's
 
-`
-[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+`[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
  - using env:	export GIN_MODE=release
  - using code:	gin.SetMode(gin.ReleaseMode)
 
@@ -54,8 +51,7 @@ $ go run main.go
 [GIN-debug] DELETE /api/v1/articles/:id      --> github.com/suisai337/goblog/routers/api/v1.DeleteArticle (4 handlers)
 
 Listening port is 8000
-Actual pid is 4393
-`
+Actual pid is 4393`
 
 ## 特性
 - RESTful API
